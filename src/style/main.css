@@ -7,6 +7,65 @@
 .body{
     font-family: 'Comic sans' sans-serif;
 }
+
+ /* CSS GORDO JUAN */
+
+  .collapse{
+      margin-left: 23%;
+  }
+
+
+#botonGetStarted{
+    border-radius: 20px 20px 20px 20px;
+    border: rgb(46, 155, 218) 2px solid;
+}
+
+.navbar{
+    font-weight: 400;
+}
+
+.linea-negra{
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(112, 111, 111, 0.596); 
+    width: 80px; 
+    height: 1px;
+    margin-left: 35%;   
+}
+
+
+.linea-azul{
+    position: absolute;
+    z-index: 3;
+    background-color:  rgb(21, 127, 214); 
+    color: rgb(21, 127, 214);  
+    width: 55px; 
+    height: 3px;
+    margin-left: 573px;
+    margin-top: -1px;
+}
+
+.items-about-us{
+    font-size: 17px;
+    color: rgb(56, 50, 50);
+}
+
+.about-us{
+    margin-top: 5%;
+}
+
+#botonLearnMore{
+    color: rgb(46, 155, 218);
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    width: 140px;
+    border: 2px solid;
+    margin-top: 2%;
+}
+
+/* TERMINA CSS GORO JUAN */
+
 .img{
          width: 45%;
         display:block; 
