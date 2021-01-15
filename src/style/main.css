@@ -23,7 +23,7 @@
          -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
          filter: grayscale(100%); /* FF 35+ */
 }        
-img:hover{
+.img:hover{
         
             transform:scale(1.2);
             -ms-transform:scale(1.2);
@@ -38,4 +38,60 @@ img:hover{
 .sponsor{
     margin-left: 8%;
     margin-right: 5%;
+}
+.skills-box{
+    margin-left: 2%;
+    margin-right: 3%;
+}
+.skills{
+    margin-bottom: 10%;
+    width: 100%;
+    margin-left: 1%
+    
+}
+.titulo-skill{
+    color: rgb(7, 105, 170);
+    font-family: 'Lilita one';
+    
+    width: 80%;
+    
+}
+.descr-skill{
+  
+    width: 95%;
+}
+.progress-title{
+    font-size: 12px;
+    font-weight: 750;
+    color:#4668A2 ;
+    margin: 0 0 10px 0;
+}
+.progress{
+    height: 13px;
+    line-height: 18px;
+    border-radius: 0;
+    background-color: #f0f0f0;
+    margin-bottom: 8px;
+    box-shadow: none;
+    overflow: visible;
+
+}
+.progress .progress-bar{
+    position: relative;
+    border-radius:0;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    display: block;
+    font-size: 13px;
+    color: #4668A2;
+    position: absolute;
+    top: 0;
+    right: 4px;
+}
+@-webkit-keyframes animate-positive{
+    100% { width: 0%; }
+}
+@keyframes animate-positive{
+    0% { width: 0%; }
 }
